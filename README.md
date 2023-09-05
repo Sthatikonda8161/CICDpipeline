@@ -14,7 +14,7 @@
     * Goto your user's folder and create a bash script
         - `nano git-pull-script.sh`
         - Add code that will execute the python file in the repository
-        - CODE: https://github.com/Mahi2k/cicdpipeline/blob/prod/git-pull-script.sh
+        - CODE: https://github.com/Sthatikonda8161/CICDpipeline/blob/main/git-pull-script.sh
         - This will create a different file old-commit.txt. When latest-commit and old-commit do not match.
     * When bash script will run it will pull the latest code based on the condition the we provided in the bash script
     * After pulling the latest code bash script will copy the folder to NGINX server folder
